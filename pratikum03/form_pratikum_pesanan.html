@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Form Pesanan Pizza</title>
+<head> 
+
+<body> 
+
+    <h1>Black goose bristo | Pizza on-Deman</h1>
+    <p>
+        Our 12" wood fired pizzas are available for delivery Build your costume Pizza and we'll deliver it within an hour.
+    </p>
+    <br>
+    <p>Your Information</p>
+    <form action="http://blackgoosebistro.com/pizza.php" method="POST">
+    <table> 
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="custumername"></td>
+        </tr>
+        
+        <tr>
+            <td>Address:</td>
+            <td><textarea name="address" cols="30" rows="5"></textarea></td>
+        </tr>
+        
+        <tr>
+            <td>Telp :</td>
+            <td><input type="number" name="name"></td>
+        </tr>   
+        
+        <tr>
+          <td>Email :</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+              <td>Instuction :</td>
+              <td><textarea name="Instuction"id="Instuction" cols="30" rows="5" maxlength="350"></textarea></td>
+         </tr>
+     </table>
+     
+    <p>
+        <b>Desigh Your Dream Pizza:</b>
+        <br>
+        Pizza Spocs
+    <p/>   
+    
+    <label for="crust">Crust (Choose one):</label>  <br>
+    <input type="radio" name="crust" value="Classic White"> Classic White<br>
+    <input type="radio" name="crust" value="Multigrain"> Multigrain<br>
+    <input type="radio" name="crust" value="gulten-free"> gulten-free<br>
+    <input type="radio" name="crust" value="cheece-stuffed crust"> cheece-stuffed crust<br>
+    
+    <label for="toopings">Toopings (Chose as many as you want):</label> <br>
+    <input type="checkbox" name="toopings[]" value="red cause">Red cause <br>
+    <input type="checkbox" name="toopings[]" value="White cause"> White cause <br>
+    <input type="checkbox" name="toopings[]" value="mozarella cheese"> Mozzarela cheese <br>
+    <input type="submit" value="bring me a Pizza">
+    <input type="reset">
+      </form> 
+</body>      
+

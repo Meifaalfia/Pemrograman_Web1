@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Hasil Pemesanan Barang</title>
+</head>
+<body>
+     <div class="menu" style="background-color:  white; border: 2px solid; height: 40px; padding: 15px 5px 0px 16px; width: 1000px;">
+        <table>
+            <tr style="font-size: 30px;">
+                <td>Home</td>
+                <td style="width: 120px; padding-left: 20px;">|</td>
+                <td>Register</td>
+                <td style="width: 120px; padding-left: 20px;">|</td>
+                <td>Policy</td>
+                <td style="width: 140px; padding-left: 20px">|</td>
+                <td>About</td>
+            </tr>
+       
+        </table>
+    </div>
+    <div style="float: left; padding: 30px 25px 0px 16px;">
+        <img src="https://www.utopicomputers.com/wp-content/uploads/2017/02/Gambar-Laptop-Apple-MacBook.jpg" height="150px"> <br>
+       
+    </div>
+    <div>
+        <form style="float: left; padding-top: 27px;">
+            <table>
+                <tbody>
+                <tr>
+                    <th>Title Here</th>
+                    <td>:</td>
+                    <td>MacBook Air $800</td>
+                </tr>
+                 <tr>
+                     <th>Description</th>
+                     <td>:</td>
+                     <td><br><br>Year :2009
+                        <br>Model:
+                        <br>Condition: Mint 
+                     </td>
+                 </tr>
+                 <tr style="padding-top: 4px;">
+                     <th>Total Amount</th>
+                     <td>:</td>
+                     <td>$800</td>             
+                    </tr>
+                 <tr style="padding-top: 4px;">
+                     <th>Pay to</th>
+                     <td>:</td>
+                     <td>123-456-789-0</td>             
+                    </tr>
+                <tr style="padding-top: 4px;">
+                     <th>Payment Type</th>
+                     <td>:</td>
+                     <td style="padding-left: 15px;">
+                        <select id="payment type" style="border: 2px solid">
+                            <option value="Visa Debit">Visa Debit</option>
+                            <option value="Gopay">Gopay</option>
+                            <option value="Dana">Dana</option>
+                            <option Value="Shopee Pay">Shopee Pay</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="padding-top: 4px;">
+                    <th>Account Holder </th>
+                    <td>:</td>
+                    <td style="padding-left: 15px;">
+                        <input type="text" style="border: 2px solid;">
+                    </td>
+                </tr>
+                <tr style="padding-top: 4px">
+                    <th>Account No</th>
+                    <td>:</td>
+                    <td style="padding-left: 15px;">
+                        <input type="number" min="1" max="8" style="border: 2px solid">
+                        <br>
+                    </td>
+                </tr>
+                 <tr style="padding-top: 4px;">
+                    <th></th>
+                    <td></td>
+                    <td style="padding-left: 10px; color: green;">
+                        <input type="checkbox" id="send-phone">
+                        <label for="send-phone">Send to Mobile Phone</label>
+                        <br>
+                        <input type="checkbox" id="send-email">
+                        <label for="send-email">Send to Email</label>
+                    </td>
+                </tr>
+                <tr style="padding-top: 4px;">
+                    <th>Send to Mobile Phone</th>
+                    <td>:</td>
+                    <td style="padding-left: 15px;"><input type="email" style="border: 2px solid;">
+                    </td>
+                </tr>
+                 <tr style="padding-top: 4px;">
+                    <th>Send to Email</th>
+                    <td>:</td>
+                    <td style="padding-left: 15px;">
+                        <input type="email" style="border: 2px solid;">
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <td style="padding-left: 15px;"><input type="button" value="Pay using QuidLink" style="width: 150px; text-align: center; background-color: green; color: white; margin-top: 50px; width: 150px; height: 30px;">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
